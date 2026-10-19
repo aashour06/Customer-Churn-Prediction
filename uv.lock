@@ -245,6 +245,7 @@ dependencies = [
     { name = "matplotlib" },
     { name = "numpy" },
     { name = "pandas" },
+    { name = "scikeras" },
     { name = "scikit-learn" },
     { name = "seaborn" },
     { name = "tensorflow" },
@@ -255,6 +256,7 @@ requires-dist = [
     { name = "matplotlib", specifier = ">=3.11.2" },
     { name = "numpy", specifier = ">=2.5.4" },
     { name = "pandas", specifier = ">=3.0.6" },
+    { name = "scikeras", specifier = ">=0.13.0" },
     { name = "scikit-learn", specifier = ">=1.9.1" },
     { name = "seaborn", specifier = ">=0.13.2" },
     { name = "tensorflow", specifier = ">=2.21.0" },
@@ -1034,6 +1036,19 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/c0/8f/0722ca900cc807c13a6a0c696dacf35430f72e0ec571c4275d2371fca3e9/rich-15.0.0.tar.gz", hash = "sha256:edd07a4824c6b40189fb7ac9bc4c52536e9780fbbfbddf6f1e2502c31b068c36", size = 230680, upload-time = "2026-04-12T08:24:00.75Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/82/3b/64d4899d73f91ba49a8c18a8ff3f0ea8f1c1d75481760df8c68ef5235bf5/rich-15.0.0-py3-none-any.whl", hash = "sha256:33bd4ef74232fb73fe9279a257718407f169c09b78a87ad3d296f548e27de0bb", size = 310654, upload-time = "2026-04-12T08:24:02.83Z" },
+]
+
+[[package]]
+name = "scikeras"
+version = "0.13.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "keras" },
+    { name = "scikit-learn" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/a8/b2/81d1f018259cb84e20a814622e67b1384edd0a584589f1a2bce5c5bdd8c9/scikeras-0.13.0.tar.gz", hash = "sha256:bfc720b2755f6c09981da13c9858e999a4bf775c49b0a296847dd1adad4c5d7d", size = 24154, upload-time = "2024-04-11T22:24:07.259Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/ea/09/1c02aa24daf7a003c06f629fbb69dc9ae1bda1b247d7b8981e550d752ac9/scikeras-0.13.0-py3-none-any.whl", hash = "sha256:beeec4536129e316f8ffa56b32cbc097fa9168f3789feb243cadb8d9a36a0084", size = 26417, upload-time = "2024-04-11T22:24:06.101Z" },
 ]
 
 [[package]]
